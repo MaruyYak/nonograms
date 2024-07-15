@@ -1,0 +1,106 @@
+body.light.dark {
+  background-image: url("./assets/backgrounds/totoro-dark.jpg") !important;
+  background-position: left !important;
+  background-color: #1f1f1f !important;
+  color: #bfab91a6 !important;
+}
+
+.random_button.light.dark,
+.previous_button.light.dark,
+.collection_button.light.dark {
+  color: #bfab91a6;
+}
+
+.top_numbers.light.dark {
+  background: #fbe8d591 !important;
+  color: #120e08 !important;
+}
+.side_numbers.light.dark {
+  background: #fbe8d591 !important;
+  color: #120e08 !important;
+}
+.nonogram_cell.light.dark {
+  border: solid 2px #fbe8d566 !important;
+}
+
+.show_result_button.light.dark, 
+.reset_button.light.dark {
+  color: #bfab91a6 !important;
+}
+.close_game_menu_button.light.dark,
+.menu_title.light.dark,
+.save_state_button.light.dark,
+.main_menu_game_button.light.dark,
+.theme_label.light.dark {
+  color: #bfab91a6 !important;
+}
+
+.close_game_menu_button.light.dark:hover,
+.menu_title.light.dark:hover,
+.save_state_button.light.dark:hover,
+.main_menu_game_button.light.dark:hover {
+  color: rgb(255 223 193) !important;
+}
+
+.store_modal_overlay.light.dark {
+  background-color: #1f1f1f !important;
+}
+
+.store_modal_window.light.dark {
+  background-image: url("./assets/backgrounds/storedarkmodal.jpg")!important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-color: #292824 !important;
+  background-position: top !important;
+}
+
+.close_store_modal.light.dark,
+.store_title.light.dark,
+.store_img_name.light.dark,
+.store_level_name.light.dark, 
+.store_time.light.dark {
+  color: #c3bbb0a6 !important;
+}
+
+.game_menu_buttons_container.light.dark{
+  border: solid 1px rgb(147, 132, 114)!important;
+}
+
+.left_selected_cell.light.dark {
+  border: solid 2px rgb(128, 128, 128) ;
+  background-image: url('./assets/backgrounds/thing-dark.png');
+}
+
+.right_selected_cell.light.dark::before,
+.right_selected_cell.light.dark::after {
+  background-color: rgba(125, 120, 115, 0.849);
+}
+
+.modal_overlay.light.dark {
+  background-color: #1f1f1fc2;
+}
+
+.modal_window.light.dark  {
+  border: solid 2px #a6957b ;
+  background-color: #171615;
+}
+.game_result.light.dark  {
+  color: #c3bbb0a6;
+}
+
+.nonogram_img_name.light.dark  {
+  color: #c3bbb0a6;
+}
+
+.time_result.light.dark {
+  color: #c3bbb0a6;
+}
+.next_nonogram_button.light.dark,
+.main_menu_button.light.dark {
+  color: #c3bbb0a6;
+}
+.next_nonogram_button.light.dark:hover,
+.main_menu_button.light.dark:hover{
+  transform: scale(1.2) ;
+  color: beige;
+}
