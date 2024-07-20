@@ -1,4 +1,3 @@
-// alert("Привет, уважаемый проверяющий :) Очень прошу начать поверку не раньше вечера 7 февраля. Спасибо за понимание!");
 
 function generateMainPageContent() {
   document.body.classList.add('light')
@@ -12,7 +11,7 @@ function generateMainPageContent() {
 
   pageHeader = document.createElement("h1");
   pageHeader.className = "main_page_header";
-  pageHeader.textContent = "NONOGRAMAS";
+  pageHeader.textContent = "NONOGRAMS";
   menuArea.appendChild(pageHeader);
 
   levelTitle = document.createElement("h3");
